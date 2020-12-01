@@ -1,7 +1,18 @@
 # Entry 2
-##### X/X/XX
+##### 11/28/2020
 
-Text
+Since my last blog entry, I have made the decision to stick to FireBase. I have created my very own project in [Firebase Console](https://console.firebase.google.com/) and have also started looking for videos that could help me get started with the actual process of brainstorming my prototype by exploring Firebase at a deeper level. Some of the sources I have come across are YouTube videos. The first source I used was [Codelab: Get to know Firebase for web](https://www.youtube.com/watch?v=Gtgtu2Fdo4w). This video helped me so much with getting started. At first I had already created my project, but then I wasn't sure what to do from there. I was confused on how I would use Firebase because I had tried setting up the CLI in my IDE, but it didn't work. However, when I came across this video and the [Firebase Documentation](https://firebase.google.com/docs/hosting/use-cases) I noticed that the programmers were using [Stackblitz](https://stackblitz.com/) instead of using an ide like CS50 IDE, so I decided to experiment by using this website instead.
+
+I followed this code along all the way through and ended up having a an interactive, real time web application. Along with the video, I used the source [codelabs.developers.google.com/](https://codelabs.developers.google.com/codelabs/firebase-get-to-know-web#0) to make sure I was doing everything correctly without getting an error. Orignally, the person coding was creating a web app that would allow people to make a reservation (RSVP) and sign up for this make up event they were hosting. What I did instead, was create a web app that would allow users to sign in and then set their goal for the day they are in. However, I haven't figured out a way to store the information the user types in or allowing them to see it as well. What I was able to learn was how to make it so that when, and only when the user is signed in, they would be able to anything that corresponds to them. However, I need to learn the actual code on how to save the progress each user makes first, and then be able to work on seeing the data. Right now I have only learned how to make it so that when signed in, they are able to see more things than just the simple web page they see before signing in.
+
+What the programmer was doing got her a web app looking like this:
+[Firebase Get To Know Web](https://stackblitz.com/edit/firebase-gtk-web-start)
+
+After tinkering with the example web app, I got it to look like this:
+[Tinkering with Firebase Get To Know Web](https://stackblitz.com/edit/firebase-gtk-web-edits?file=index.html)
+As I tried tinking with her example, the main takeaway I took from this Code Lab was the way in which I should build my web app. Making the site seem simple at first, but when the user signs letting them be able to acess so many more features. It helped a lot with giving me an insight on how the code looks like when you have a simple, but working web app. I ended up learning how to create a Sign In button that stores data of who has signed in by viewing Authentication in the Firebase console.
+
+In regards to the **Engineering Design Process**, I am in Step 3: Brainstorming possible solutions. I am continuing to brainstorm ways to make my app as efficient as possible. Thanks to the code along, I was able to get an idea on how I want my web app to look like and I have also dived deeper into learning Firebase. Some of the **skills** I have picked up along the way are (1)How to learn and (2)How to Google. I've been learning to do a lot of research independently. After searching through videos that could help me, I came across a lot of helpful ones, however most of them used VS Code which I would have to install, so I kept on searching Google and YouTube for tutorials until I cam across the Codelab video.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
