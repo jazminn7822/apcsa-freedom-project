@@ -38,9 +38,7 @@ Code Snippets
 			<section id="description-container">
 				<h2>Create an account to sign in and track your daily intake of water!</h2>
 
- `
- 
- ` <h2>Goals</h2>
+  <h2>Goals</h2>
 
 				<form id="leave-message">
 					<label>What goal do you have for today? </label>
