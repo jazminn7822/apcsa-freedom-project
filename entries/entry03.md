@@ -3,7 +3,54 @@
 
 Since my last blog entry, I have learned how to analyze code and understand the process behind each user when they sign in and sign out. I have continued to work on and experiment using a codelab Firebase did a couple of months ago. I have also looked over a variety of websites and YouTube videos to get a bigger understanding of Firebase, and it finally stuck to me how Firebase really works.
 
-In the past, I had learned how Firebase was a Backend-as-a-Service (BaaS), but I guess I never really understood what it actually meant. However, after looking through videos and articles, I have found out that you can essentially create any web app and then host it using Google's Firebase as a hosting site. This made me want to create a Bootstrap Website to then deploy using Firebase, but after much research, I realized that it wasn't going to be that easy. After seeing videos like, [Firebase - Back to the Basics](https://www.youtube.com/watch?v=q5J5ho7YUhA), [Fast React Website Deployment With Firebase](https://www.youtube.com/watch?v=IDHfvpsYShs), [4 Setup bootstrap and firebase](https://www.youtube.com/watch?v=lrYlH3LGswo),  I learned how users can get started with Firebase and how they can take different approaches. In particular for my project, I was finally able to make the user sign in and submit a goal they have for the day. What was interesting to see was how if the user signs out, they wouldn't lose any goals they typed in before signing out of their account.
+In the past, I had learned how Firebase was a Backend-as-a-Service (BaaS), but I guess I never really understood what it actually meant. However, after looking through videos and articles, I have found out that you can essentially create any web app and then host it using Google's Firebase as a hosting site. This made me want to create a Bootstrap Website to then deploy using Firebase, but after much research, I realized that it wasn't going to be that easy. After seeing videos like, [Firebase - Back to the Basics](https://www.youtube.com/watch?v=q5J5ho7YUhA), [Fast React Website Deployment With Firebase](https://www.youtube.com/watch?v=IDHfvpsYShs), [4 Setup bootstrap and firebase](https://www.youtube.com/watch?v=lrYlH3LGswo),  I learned how users can get started with Firebase and how they can take different approaches. Some had used Bootstrap, others had used React, but in the end they ended up using Firebase to host their website. In particular for my project, I was finally able to make the user sign in and submit a goal they have for the day. What was interesting to see was how if the user signs out, they wouldn't lose any goals they typed in before signing out of their account.
+
+Code Snippets 
+`
+<body>
+
+	<div id="app">
+		<!-- image of water  -->
+		<img
+      src="https://post.greatist.com/wp-content/uploads/sites/2/2019/08/GRT-still-life-drinking-water-glass-1200x628-facebook.jpg"
+    />
+
+		<div id="app">
+			<!-- image of water  -->
+			<img
+      src="https://post.greatist.com/wp-content/uploads/2020/08/11178-Different_types_of_water_facebook-1200x628-1-1200x628.jpg"
+    />
+
+			<section id="event-details-container">
+				<h1>keepHydrated</h1>
+				<h4><i> keep yourself hydrated </i></h4>
+
+				<p><i class="material-icons">calendar_today</i> February 17, 2021</p>
+				<!-- <p><i class="material-icons">location_city</i> Ne</p> -->
+				<button id="startRsvp">Sign In</button>
+
+			</section>
+
+			<hr>
+
+			<section id="firebaseui-auth-container"></section>
+
+			<section id="description-container">
+				<h2>Create an account to sign in and track your daily intake of water!</h2>
+
+ `
+ 
+ ` <h2>Goals</h2>
+
+				<form id="leave-message">
+					<label>What goal do you have for today? </label>
+					<input type="text" id="message">
+					<button type="submit">
+       <i class="material-icons">send</i>
+       <span>Submit</span>
+     </button>
+				</form>
+`
 
 ![Web Image](https://gm1.ggpht.com/zxPgXCXmal050NRv8OecWA7FrYZdtVwh69ETmcRcHFyTz1yzLcBsAokrV2yP1kBls2iTTzyPQYdlPuWwsk5EoFrSdhc1mARAw2bMLYp1mcXXy2EwN3cG1j8wzRIN4g4Ui-XJGIvJeREkZLBV7-8crmcTLi50ZdjWhATslLivYmR4hpHXghBG4eMB-3mOArn34p0D5hGNbHYrcMnPWGwTHYlMhGXkuCYltS-y2lp_rbeFaun59cVdYTbjsnZWqlKG8Kk6l3bYP1dB2TyV-XKY4XH3geF3Rz2_hQmEr0kFdm-B2bNAbxf0ywav0tPUAn7W9mQs_yWtRgg15jpRyTa1avSk4FD5GaPvx58DYXB238t_s5X9jqKZpqobvriK9-mo4fXAECwvYFcPWv3ZlFMWkuMCBY0GgUXiuW-zQyKYBgFFuGPsFObZXZ0lJly24JTBhPkKrn_IZQfbjlDOjwBeeYYTihj7VMgBlErcdq3lXPGCBg9F52dgmcFcY0kNAQvxjqTDO6ED25fWLP1S2CVhYarKLs6oVfVtchi03eV4dmnIsnl8106v48fbTnG4qUJtrV-Z6r4SExDlDro6NTBrymEy0aDZV7uRzvxnpThvhJapserei5CGFcIetKgLX_WR4m01_iteB1gQGxUVyQzSQMT0H4-VZ1yNxUwqxkTeOTxhxT6SvV965YZLLZMKnQ2SKYE2u4r-L8CNOzonNCDsOt4twFJ2-WMuP4mjJyNLSvGMo18vsbFEGz0UJt7qmO_Zj94j=s0-l75-ft-l75-ft)
 
