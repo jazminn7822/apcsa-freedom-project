@@ -50,7 +50,7 @@ Code Snippets
 						</form>	`
 
 
-![Screenshot of Web App](https://github.com/jazminn7822/apcsa-freedom-project/blob/master/entries/Main%20Screen.png){:target="_blank"}
+![Screenshot of Web App](https://github.com/jazminn7822/apcsa-freedom-project/blob/master/entries/Main%20Screen.png)
 ![Screenshot of Web App](https://github.com/jazminn7822/apcsa-freedom-project/blob/master/entries/Sign%20In.png)
 ![Screenshot of Web App](https://github.com/jazminn7822/apcsa-freedom-project/blob/master/entries/Logged%20In.png)
 ![Screenshot of Web App](https://github.com/jazminn7822/apcsa-freedom-project/blob/master/entries/Logged%20In%202.png)
