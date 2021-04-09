@@ -5,7 +5,7 @@ As I've mentioned earlier on, users can essentially create any web app or websit
   In order to get to the desired outcome I wanted, I searched for videos throughout YouTube, and after hours of looking for the video I needed to find, I finally came across [How To Create Responsive Login Form Using HTML & CSS & Bootstrap (2020)](https://www.youtube.com/watch?v=Bwk-Q_Ua-jM) which eventually helped me tons. I eventually created this website. Below are some screenshots of the code behind the [MyDaily Water Web application](https://jazmin7822.github.io/freedom-project/#)
 
 
-![code](/img/Blog Entry 4 Code1.png"code")
+![code](/img/Blog Entry 4 Code1.png "code")
 
 
 
